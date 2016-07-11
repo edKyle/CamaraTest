@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2747B13A1D335C090046BFAC /* BigPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2747B1391D335C090046BFAC /* BigPhotoViewController.swift */; };
+		2773694C1D32292000D057A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773694B1D32292000D057A8 /* AppDelegate.swift */; };
+		277369511D32292000D057A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2773694F1D32292000D057A8 /* Main.storyboard */; };
+		277369531D32292000D057A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277369521D32292000D057A8 /* Assets.xcassets */; };
+		277369561D32292000D057A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277369541D32292000D057A8 /* LaunchScreen.storyboard */; };
+		2773695E1D322A4800D057A8 /* PhtoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773695D1D322A4800D057A8 /* PhtoCollectionViewCell.swift */; };
+		277369621D322D4900D057A8 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277369611D322D4900D057A8 /* PhotoCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2747B1391D335C090046BFAC /* BigPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigPhotoViewController.swift; sourceTree = "<group>"; };
+		277369481D32292000D057A8 /* CamaraPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamaraPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2773694B1D32292000D057A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		277369501D32292000D057A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		277369521D32292000D057A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277369551D32292000D057A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		277369571D32292000D057A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2773695D1D322A4800D057A8 /* PhtoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhtoCollectionViewCell.swift; sourceTree = "<group>"; };
+		277369611D322D4900D057A8 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCollectionViewController.swift; path = ../PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277369451D32292000D057A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2773693F1D32292000D057A8 = {
+			isa = PBXGroup;
+			children = (
+				2773694A1D32292000D057A8 /* CamaraPhoto */,
+				2773695F1D322A5500D057A8 /* Controller */,
+				277369601D322A6600D057A8 /* Cell */,
+				277369491D32292000D057A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277369491D32292000D057A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277369481D32292000D057A8 /* CamaraPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2773694A1D32292000D057A8 /* CamaraPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				2773694F1D32292000D057A8 /* Main.storyboard */,
+				2773694B1D32292000D057A8 /* AppDelegate.swift */,
+				277369521D32292000D057A8 /* Assets.xcassets */,
+				277369541D32292000D057A8 /* LaunchScreen.storyboard */,
+				277369571D32292000D057A8 /* Info.plist */,
+			);
+			path = CamaraPhoto;
+			sourceTree = "<group>";
+		};
+		2773695F1D322A5500D057A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				277369611D322D4900D057A8 /* PhotoCollectionViewController.swift */,
+				2747B1391D335C090046BFAC /* BigPhotoViewController.swift */,
+			);
+			name = Controller;
+			path = CamaraPhoto;
+			sourceTree = "<group>";
+		};
+		277369601D322A6600D057A8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2773695D1D322A4800D057A8 /* PhtoCollectionViewCell.swift */,
+			);
+			name = Cell;
+			path = CamaraPhoto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277369471D32292000D057A8 /* CamaraPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2773695A1D32292000D057A8 /* Build configuration list for PBXNativeTarget "CamaraPhoto" */;
+			buildPhases = (
+				277369441D32292000D057A8 /* Sources */,
+				277369451D32292000D057A8 /* Frameworks */,
+				277369461D32292000D057A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamaraPhoto;
+			productName = CamaraPhoto;
+			productReference = 277369481D32292000D057A8 /* CamaraPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277369401D32292000D057A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Alphacamp;
+				TargetAttributes = {
+					277369471D32292000D057A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 277369431D32292000D057A8 /* Build configuration list for PBXProject "CamaraPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2773693F1D32292000D057A8;
+			productRefGroup = 277369491D32292000D057A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277369471D32292000D057A8 /* CamaraPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277369461D32292000D057A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277369561D32292000D057A8 /* LaunchScreen.storyboard in Resources */,
+				277369531D32292000D057A8 /* Assets.xcassets in Resources */,
+				277369511D32292000D057A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277369441D32292000D057A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2773695E1D322A4800D057A8 /* PhtoCollectionViewCell.swift in Sources */,
+				277369621D322D4900D057A8 /* PhotoCollectionViewController.swift in Sources */,
+				2747B13A1D335C090046BFAC /* BigPhotoViewController.swift in Sources */,
+				2773694C1D32292000D057A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2773694F1D32292000D057A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277369501D32292000D057A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		277369541D32292000D057A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277369551D32292000D057A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		277369581D32292000D057A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		277369591D32292000D057A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2773695B1D32292000D057A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CamaraPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.Alphacamp.CamaraPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2773695C1D32292000D057A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CamaraPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.Alphacamp.CamaraPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277369431D32292000D057A8 /* Build configuration list for PBXProject "CamaraPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277369581D32292000D057A8 /* Debug */,
+				277369591D32292000D057A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2773695A1D32292000D057A8 /* Build configuration list for PBXNativeTarget "CamaraPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2773695B1D32292000D057A8 /* Debug */,
+				2773695C1D32292000D057A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277369401D32292000D057A8 /* Project object */;
+}
